@@ -6,6 +6,28 @@ body,html{
 .midtextclr{
     color:#90EE90;
 }
+/* .papperoni,.cheese,.chickenbbq,.Buffalo,.Hawaii,.Meat>img{
+    border-radius: 2rem;
+} */
+
+.papperoni img{
+    border-radius: 10%;
+}
+.cheese img{
+    border-radius: 10%;
+}
+.chickenbbq img{
+    border-radius: 10%;
+}
+.Buffalo img{
+    border-radius: 10%;
+}
+.Hawaii img{
+    border-radius: 10%;
+}
+.Meat img{
+    border-radius: 10%;
+}
 /* phone screen */
 
 @media only screen and (max-width:480px){
@@ -78,6 +100,23 @@ body,html{
         height:213px;
         width:177px;
     }
+
+    .order-section{
+        text-align: center;
+    }
+    .order-section>h2{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .order-section>h3{
+        color:green;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+   .papperoni,.cheese,.chickenbbq,.Buffalo,.Hawaii,.Meat{
+       font-weight: 700;
+   }
+
 
 }
 
