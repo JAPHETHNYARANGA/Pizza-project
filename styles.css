@@ -35,6 +35,7 @@ body,html{
         position:fixed;
         top:0;
         background-color: white;
+
     }
     .navigation{
         position:relative;
@@ -42,17 +43,74 @@ body,html{
         margin:1rem 0;
     }
     .navigation{
-        height:50%;
+        height:100%;
         width:0;
-        background-color: #32cd32;
+        background-color: #111;
         position:relative;
-        z-index:2;
+        z-index:1;
         top:0;
         left:0;
         overflow-x: hidden;
-        padding-top:60px;
+        padding-top:30px;
         transition:0.8s;
     }
+    /* middle section*/
+    .middle{
+        position:relative;
+        text-align: center;
+    }
+    #midtext{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .middle-pic{
+        margin:5rem 0 3rem 0;
+    }
+    .middle-pic img{
+        height:213px;
+        width:177px;
+    }
+
+    .order-section{
+        text-align: center;
+    }
+    .order-section>h2{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .order-section>h3{
+        color:green;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+   .papperoni,.cheese,.chickenbbq,.Buffalo,.Hawaii,.Meat{
+       font-weight: 700;
+   }
+
+   .size-section{
+       text-align: center;
+       position: relative;
+       height:4rem;
+   }
+   .size{
+      position:absolute;
+       display: flex;
+       flex-direction: row;
+       left:50%;
+       transform: translateX(-50%);
+   }
+   .crust-section{
+       margin:4rem 0 0 0;
+       text-align: center;
+   }
+   .toppings-section{
+       text-align: center;
+   }
+   .ordersNo{
+       width:60%;
+       margin:4rem 0;
+   }
 }
 
 
