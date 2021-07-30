@@ -1,0 +1,25 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+
+/* phone screen */
+
+@media only screen and (max-width:480px){
+
+}
+
+/*tablet screen*/
+@media screen and (min-width:481px) and (max-width:768px){
+
+}
+
+/* large tablet screen*/
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
+
+/* laptop and desktop screens*/
+@media screen and (min-width:1025px){
+
+}
