@@ -71,6 +71,9 @@ body,html{
         font-size: 3rem;
     }
 
+    .middle-pic{
+        margin:5rem 0 3rem 0;
+    }
     .middle-pic img{
         height:213px;
         width:177px;
