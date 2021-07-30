@@ -281,6 +281,7 @@ body,html{
 }
 .size-section{
     text-align: center;
+    margin-top: 10%;
 
     
 }
@@ -289,12 +290,118 @@ body,html{
     justify-content: space-between;
 }
 .crust-section{
-    
+    text-align: center;
+    margin-top: 10%;
+}
+.crust{
+    display: flex;
+    justify-content: space-between;
 }
 
 }
 
 /* laptop and desktop screens*/
 @media screen and (min-width:1025px){
+    .fas{
+        display:none;
+    }
+    ul{
+        list-style: none;
+    }
+    .navigation{
+        display:flex;
+        justify-content:space-between;
+    }
+    .h-text{
+        font-size: 30px;
+        margin: 0 0 0 5%;
+    }
+    .lists{
+        margin:2rem 5% 0 0;
+        font-size: 30px;
+    }
+    .lists li{
+        display:inline-block;
+    }
+  .middle{
+    
+      display:flex;
+      margin: 5rem 0 0 20%;
+  }
+  .middle-pic img{
+      height:322px;
+      width:282px;
+  }
+  .middle-text{
+      margin: 10% 35% 0 0;
+      font-weight: 700;
+  }
+  .navigation a{
+    text-decoration:none;
+    padding-right:2rem;
+  }
+  .order-section h2{
+      text-align: center;
+      margin-top: 10%;
+  }
+  .order-section h3{
+      position: relative;
+      text-align: center;
+      margin: 0 0 2rem 0;
+  }
+  .pizza-images-top{
+      display: flex;
+     justify-content: space-evenly;
+     margin:5% 0;
+ 
+  }
+  .pizza-images-bottom{
+      display:flex;
+      justify-content: space-evenly;
+     
+  }
+  .papperoni img{
+    width:286px;
+    height:162px;
+}
+.cheese img{
+    width:286px;
+    height:162px;
+}
+.chickenbbq img{
+    width:286px;
+    height:162px;
+}
+.Buffalo img{
+    width:286px;
+    height:162px;
+}
+.Hawaii img{
+    width:286px;
+    height:162px;
+}
+.Meat img{
+    width:286px;
+    height:162px;
+}
+.size-section{
+    text-align: center;
+    margin-top: 10%;
+
+    
+}
+.size{
+    display: flex;
+    justify-content: space-between;
+}
+.crust-section{
+    text-align: center;
+    margin-top: 10%;
+}
+.crust{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 }
