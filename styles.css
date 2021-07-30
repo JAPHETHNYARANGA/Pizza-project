@@ -3,6 +3,9 @@ body,html{
     margin:0;
 }
 
+.midtextclr{
+    color:#90EE90;
+}
 /* phone screen */
 
 @media only screen and (max-width:480px){
@@ -39,7 +42,7 @@ body,html{
         position:fixed;
         top:0;
         background-color: white;
-        
+
     }
     .navigation{
         position:relative;
@@ -51,16 +54,26 @@ body,html{
         width:0;
         background-color: #111;
         position:relative;
-        z-index:2;
+        z-index:1;
         top:0;
         left:0;
         overflow-x: hidden;
         padding-top:30px;
         transition:0.8s;
     }
+    /* middle section*/
     .middle{
         position:relative;
         text-align: center;
+    }
+    #midtext{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .middle-pic img{
+        height:213px;
+        width:177px;
     }
 
 }
