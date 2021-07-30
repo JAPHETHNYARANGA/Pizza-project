@@ -210,9 +210,73 @@ body,html{
     .fas{
         display:none;
     }
-    /* .navigation{
-        display:inline;
-    } */
+    ul{
+        list-style: none;
+    }
+    .navigation{
+        display:flex;
+        justify-content:space-between;
+    }
+    .lists{
+        margin:2rem 0 0 0;
+    }
+    .lists li{
+        display:inline-block;
+    }
+  .middle{
+      display:flex;
+      margin: 5rem 0 0 0;
+  }
+  .middle-pic img{
+      height:322px;
+      width:282px;
+  }
+  .middle-text{
+      margin: 0 35% 0 0;
+      font-weight: 700;
+  }
+  .navigation a{
+    text-decoration:none;
+    padding-right:2rem;
+  }
+  .order-section h2{
+      text-align: center;
+  }
+  .order-section h3{
+      text-align: center;
+      margin: 0 0 2rem 0;
+  }
+  .pizza-images-top{
+      display: flex;
+  }
+  .pizza-images-bottom{
+      display:flex;
+  }
+  .papperoni img{
+    width:286px;
+    height:162px;
+}
+.cheese img{
+    width:286px;
+    height:162px;
+}
+.chickenbbq img{
+    width:286px;
+    height:162px;
+}
+.Buffalo img{
+    width:286px;
+    height:162px;
+}
+.Hawaii img{
+    width:286px;
+    height:162px;
+}
+.Meat img{
+    width:286px;
+    height:162px;
+}
+
 }
 
 /* laptop and desktop screens*/
