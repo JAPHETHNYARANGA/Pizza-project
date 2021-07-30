@@ -297,6 +297,14 @@ body,html{
     display: flex;
     justify-content: space-between;
 }
+.toppings-section{
+    text-align: center;
+    margin-top: 2%;
+}
+.ordersNo{
+    text-align: center;
+    margin-top: 2%;
+}
 
 }
 
@@ -386,7 +394,7 @@ body,html{
 }
 .size-section{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2%;
 
     
 }
@@ -396,11 +404,20 @@ body,html{
 }
 .crust-section{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 .crust{
     display: flex;
+
     
+}
+.toppings-section{
+    text-align: center;
+    margin-top: 2%;
+}
+.ordersNo{
+    text-align: center;
+    margin-top: 2%;
 }
 
 
