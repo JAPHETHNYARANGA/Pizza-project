@@ -92,24 +92,20 @@ body,html{
        text-align: center;
        position: relative;
        height:4rem;
+       margin:10% 0 5% 0;
    }
-   .size{
-      position:absolute;
-       display: flex;
-       flex-direction: row;
-       left:50%;
-       transform: translateX(-50%);
-   }
+   
    .crust-section{
        margin:4rem 0 0 0;
        text-align: center;
+       margin:10% 0;
    }
    .toppings-section{
        text-align: center;
    }
    .ordersNo{
-       width:60%;
-       margin:4rem 0;
+      text-align: center;
+       margin:10% 0;
    }
 }
 
