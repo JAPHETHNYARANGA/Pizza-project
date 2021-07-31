@@ -100,13 +100,27 @@ body,html{
        text-align: center;
        margin:10% 0;
    }
-   .toppings-section{
-       text-align: center;
-   }
+   .toppings-section h3{
+    text-align: center;
+    margin-top: 2%;
+}
    .ordersNo{
       text-align: center;
        margin:10% 0;
    }
+   .ordersNo, .crust-section,.size-section{
+    position: relative;
+    width:80%;
+    left:10%;
+    
+}
+.top-sec{
+    display: flex;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    margin: 0 0 5% 0;
+}
 }
 
 
@@ -202,13 +216,26 @@ body,html{
     display: flex;
     justify-content: space-between;
 }
-.toppings-section{
+.toppings-section h3{
     text-align: center;
     margin-top: 2%;
 }
 .ordersNo{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 10%;
+}
+.ordersNo, .crust-section,.size-section{
+    position: relative;
+    width:80%;
+    left:10%;
+    
+}
+.top-sec{
+    display: flex;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    margin: 0 0 5% 0;
 }
 
 }
@@ -316,14 +343,26 @@ body,html{
 
     
 }
-.toppings-section{
+.toppings-section h3{
     text-align: center;
     margin-top: 2%;
 }
 .ordersNo{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
 }
-
+.ordersNo, .crust-section,.size-section{
+    position: relative;
+    width:80%;
+    left:10%;
+    
+}
+.top-sec{
+    display: flex;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    margin: 0 0 5% 0;
+}
 
 }
