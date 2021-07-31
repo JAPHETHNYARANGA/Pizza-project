@@ -74,71 +74,64 @@
                     </div>
                 </div>
             </div>
-            <form>
+            <form class="text-center" id="text-center">
                 <div class="size-section">
                     <h3>Select Your Pizza</h3>
-                <select class="form-select form-select-lg mb-3 pizzaname" aria-label=".form-select-lg example">
-                    <option selected>Open this select menu</option>
-                    <option value="Papperoni">Papperoni</option>
-                    <option value="Cheeze">Cheeze Pizza</option>
-                    <option value="CheckenBBQ">Chicken Bbq Pizza</option>
-                    <option value="Buffalo">Buffalo Pizza</option>
-                    <option value="Hawii">Hawii Pizza</option>
-                    <option value="Meat">Meat Pizza</option>
+                <select class="form-select form-select-lg mb-3 pizzaname" id="pizzaname"aria-label=".form-select-lg example">
+                    <option selected value="0">Open this select menu</option>
+                    <option value="900">Papperoni</option>
+                    <option value="1000">Cheeze Pizza</option>
+                    <option value="800">Chicken Bbq Pizza</option>
+                    <option value="750">Buffalo Pizza</option>
+                    <option value="700">Hawii Pizza</option>
+                    <option value="600">Meat Pizza</option>
                   </select>
                 </div>
-                
-    
-    
-                <div class="size-section">
-                    <h3>Choose a size</h3>
-                    <div class="size">
-                        <select class="form-select form-select-lg mb-3 pizzasize" aria-label=".form-select-lg example">
-                            <option selected>Choose A Size</option>
-                            <option value="Small">Small</option>
-                            <option value="Medium">Medium</option>
-                            <option value="Large">Large</option>
-                          </select>
-                    </div>
-                   
-                </div>
-                <div class="crust-section">
-                    <h3>Choose crust</h3>
-                    <div class="crust">
-                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example pizzacrust">
-                            <option selected>Choose A Crust</option>
-                            <option value="NewyorkStyle">New York Style</option>
-                            <option value="DoubleDough">Double Dough</option>
-                            <option value="Crispy">Crispy</option>
-                          </select>
-                    </div>
-                    
-                </div>
-                <div class="toppings-section">
-                    <h3>Choose  Toppings</h3>
-                    <div class="top-sec">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="Bacon">
-                            <label class="form-check-label" for="flexCheckDefault" name="toppings">
-                              Bacon
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="Mushroom" checked>
-                            <label class="form-check-label" for="flexCheckChecked" name="toppings">
-                              Mushroom
-                            </label>
-                          </div>
-                    </div>
-                </div>
-                <div class="ordersNo">
-                    <h3>Enter Order Number</h3>
-                    <input type="number" class="form-control" id="orderNumber" aria-describedby="emailHelp" placeholder="number of orders">
-                </div>
-                <br>
-                <button type="submit" class="btn btn-primary checkout">Checkout</button>
-            </form>
 
+          <div class="size-section">
+            <h3>Choose a size</h3>
+            <div class="size">
+                <select class="form-select form-select-lg mb-3 pizzasize" id="pizzasize" aria-label=".form-select-lg example">
+                    <option selected value="0">Choose A Size</option>
+                    <option value="400">Small</option>
+                    <option value="800">Medium</option>
+                    <option value="1200">Large</option>
+                  </select>
+            </div>
+           
+        </div>
+
+            <h3>Choose crust</h3>
+            <div class="crust-section">
+                <select class="form-select form-select-lg mb-3" id="pizzacrust" aria-label=".form-select-lg example pizzacrust">
+                    <option selected value="0">Choose A Crust</option>
+                    <option value="450">New York Style</option>
+                    <option value="320">Double Dough</option>
+                    <option value="800">Crispy</option>
+                  </select>
+            </div>     
+        </div>
+        <div class="toppings-section">
+            <h3>Choose  Toppings</h3>
+            <div class="top-sec">
+                <div class="form-check">
+                    <select class="toppings" id="pizzatopping" required><br>
+                        <option selected value="0">Choose Toppings</option>
+                        <option label="Mushrooms" value="150">Mushrooms</option>
+                        <option label="Sausage" value="200">Sausage</option>
+                        <option label="Green peppers" value="180">Backon</option>
+                      </select>
+            </div>
+        </div>
+         
+        <div class="ordersNo">
+            <h3>Enter Order Number</h3>
+            <input type="number" class="form-control" id="orderNumber" aria-describedby="emailHelp" placeholder="number of orders" required>
+        </div>
+          <div class="button">
+            <br><br><button type="submit" id="btn" class="btn btn-primary" label="">submit</button>
+          </div>
+        </form>
     </div>
     
 
