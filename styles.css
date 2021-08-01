@@ -28,6 +28,19 @@ body,html{
 .Meat img{
     border-radius: 10%;
 }
+.footer{
+    color:white;
+    background-color: #111;
+    height:5rem;
+    margin-top: 2%;
+    position: relative;
+}
+.foot{
+   position: absolute;
+   left:50%;
+   top:50%;
+   transform: translate(-50%, -50%);
+}
 /* phone screen */
 
 @media only screen and (max-width:768px){
@@ -395,4 +408,5 @@ body,html{
 .button{
     text-align: center;
 }
+
 }

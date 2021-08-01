@@ -34,7 +34,7 @@ $(document).ready(function() {
        
     
         
-        function Order(pizzaname, pizzasize, pizzacrust, pizzatopping, orderNumber) {
+        function getOrder(pizzaname, pizzasize, pizzacrust, pizzatopping, orderNumber) {
           this.newpizzaname = pizzaname;
           this.newpizzasize = pizzasize;
           this.newpizzacrust = pizzacrust;
@@ -43,7 +43,7 @@ $(document).ready(function() {
         }
     
      
-        var getInput = new Order(pizzaname(), pizzasize(), pizzacrust(), pizzatopping(), orderNumber());
+        var getInput = new getOrder(pizzaname(), pizzasize(), pizzacrust(), pizzatopping(), orderNumber());
     
         var totalCost =
           (getInput .newpizzasize +
