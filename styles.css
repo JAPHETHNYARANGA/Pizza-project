@@ -3,6 +3,10 @@ body,html{
     margin:0;
 }
 
+p{
+    text-align: center;
+    font-weight: 700;
+}
 .midtextclr{
     color:#90EE90;
 }
@@ -29,6 +33,7 @@ body,html{
     border-radius: 10%;
 }
 .footer{
+    font-weight: 700;
     color:white;
     background-color: #111;
     height:5rem;
@@ -136,6 +141,9 @@ body,html{
 }
 .button{
     text-align: center;
+}
+.foot{
+    font-size: 12px;
 }
 }
 

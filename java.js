@@ -67,3 +67,8 @@ $(document).ready(function() {
         event.preventDefault();
       });
     });
+    $(document).ready(function(){
+      $(".order-section").mouseover(function(){
+        $(".papperoni").effect("shake")
+      })
+    })
