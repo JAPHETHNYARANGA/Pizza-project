@@ -56,6 +56,7 @@ $(document).ready(function() {
         alert("Your charges for Pizza" + totalCost);
         if (confirm('Do you want delivery?')) {
             var name = prompt("Please Enter Your location")
+            alert('Delivery will cost you a total of ksh 200')
             alert('Your pizza will be delivered to ' + name + ' your total cost is ksh ' + finalCost);
           } else {
             // Do nothing!
