@@ -6,6 +6,50 @@ open.addEventListener('click', ()=>{
 })
 
 
+
+$(document).ready(function(){
+  $("#paps").mouseover(function(){
+    $(".po1").show();
+  }).mouseout(function(){
+    $(".po1").hide();
+  });
+});
+$(document).ready(function(){
+  $(".cheese").mouseover(function(){
+    $(".po2").show();
+  }).mouseout(function(){
+    $(".po2").hide();
+  });
+});
+$(document).ready(function(){
+  $(".chickenbbq").mouseover(function(){
+    $(".po3").show();
+  }).mouseout(function(){
+    $(".po3").hide();
+  });
+});
+$(document).ready(function(){
+  $(".Buffalo").mouseover(function(){
+    $(".po4").show();
+  }).mouseout(function(){
+    $(".po4").hide();
+  });
+});
+$(document).ready(function(){
+  $(".Hawaii").mouseover(function(){
+    $(".po5").show();
+  }).mouseout(function(){
+    $(".po5").hide();
+  });
+});
+$(document).ready(function(){
+  $(".Meat").mouseover(function(){
+    $(".po6").show();
+  }).mouseout(function(){
+    $(".po6").hide();
+  });
+});
+
 //logic for the input form
 
 $(document).ready(function() {
@@ -69,48 +113,6 @@ $(document).ready(function() {
         event.preventDefault();
       });
     });
-    $(document).ready(function(){
-      $("#paps").mouseover(function(){
-        $(".po1").show();
-      }).mouseout(function(){
-        $(".po1").hide();
-      });
-    });
-    $(document).ready(function(){
-      $(".cheese").mouseover(function(){
-        $(".po2").show();
-      }).mouseout(function(){
-        $(".po2").hide();
-      });
-    });
-    $(document).ready(function(){
-      $(".chickenbbq").mouseover(function(){
-        $(".po3").show();
-      }).mouseout(function(){
-        $(".po3").hide();
-      });
-    });
-    $(document).ready(function(){
-      $(".Buffalo").mouseover(function(){
-        $(".po4").show();
-      }).mouseout(function(){
-        $(".po4").hide();
-      });
-    });
-    $(document).ready(function(){
-      $(".Hawii").mouseover(function(){
-        $(".po5").show();
-      }).mouseout(function(){
-        $(".po5").hide();
-      });
-    });
-    $(document).ready(function(){
-      $(".Meat").mouseover(function(){
-        $(".po6").show();
-      }).mouseout(function(){
-        $(".po6").hide();
-      });
-    });
-
+   
    
     
