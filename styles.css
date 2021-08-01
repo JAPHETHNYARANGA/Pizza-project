@@ -69,17 +69,17 @@ p{
 
 @media only screen and (max-width:768px){
     .fas{
+        display:none;
         position:fixed;
         top:0;
         background-color: white;
 
     }
     .navigation{
+        
         position:relative;
         height:4rem;
         margin:1rem 0;
-    }
-    .navigation{
         height:100%;
         width:0;
         background-color: #111;
